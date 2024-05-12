@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--color-primary-2);
+    background-color: #131313;
 }
 
 #footer_items {
@@ -10,7 +10,7 @@ footer {
 }
 
 #copyright {
-    color: var(--color-neutral-1);;
+    color: white;
     font-weight: 500;
 }
 
