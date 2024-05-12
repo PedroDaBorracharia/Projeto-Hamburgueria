@@ -13,7 +13,7 @@
 }
 
 #cta .title {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--color-neutral-1);;
 }
 
@@ -54,25 +54,18 @@
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 70%;
+    width: 100%;
     z-index: 2;
 }
 
 #banner img {
-    height: 100%;
-    width: fit-content;
+    height: 80%;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 200px;
+    border-radius: 20px;
 }
 
-.shape {
-    background-color: var(--color-primary-2);
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
 
 @media screen and (max-width: 1170px) {
     #home {
@@ -81,8 +74,7 @@
     }
 
     #banner,
-    #banner img,
-    #home .shape {
+    #banner img {
         display: none;
     }
 

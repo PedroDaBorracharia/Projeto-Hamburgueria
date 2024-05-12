@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Links Úteis</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="src/images/uniube-logo.png" alt="uniube-logo" width="70px">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cardapio.html" target="_blank">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="termos.html" target="_blank">Termos de Uso</a>
+                </li>
+                <li class="nav-item">
+                    <a href="links.html" target="_blank">Links</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="contato.html" id="pecaaqui">Contato</a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cardapio.html" target="_blank">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="termos.html" target="_blank">Termos de Uso</a>
+                </li>
+                <li class="nav-item">
+                    <a href="links.html" target="_blank">Links</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="contato.html" id="pecaaqui">Contato</a>
+            </button>
+        </div>
+    </header>
+
+    <div id="titulo2">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            h3{
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 60px;
+            }
+        </style>
+
+        <h3 id="section-subtitle">Páginas de mesmo tema</h3>
+    </div>
+
+    <section>
+        <table id="tabela">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+                table{
+                    display: flex;
+                    justify-content: center;
+                    border-collapse: collapse;
+                    border-radius: 12px 12px 0 0;
+                    overflow: hidden;
+                }
+                td , th{
+                    padding: 15px 20px;
+                    text-align: center;
+                }
+                th{
+                    background-color: #e9a209;
+                    color: black;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 700;
+                    text-transform: uppercase;
+
+                }
+                tr{
+                    width: 100%;
+                    background-color: #fafafa;
+                    font-family: 'Poppins', sans-serif;
+                }
+                tr:nth-child(even){
+                    background-color: #eeeeee;
+            }
+            </style>
+            <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Empresa</th>
+                <th>País</th>
+                <th>Link</th>
+            </tr>
+        
+            <tr>
+                <td>1</td>
+                <td>LePinguê</td>
+                <td>LePinguê</td>
+                <td>Brasil</td>
+                <td><a href="https://www.lepingue.com.br/" target="_blank">Clique aqui</a></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>LaBrasaBurger</td>
+                <td>LaBrasa</td>
+                <td>Brasil</td>
+                <td><a href="https://site.labrasaburger.com.br/" target="_blank">Clique aqui</a></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Barão</td>
+                <td>BarãoHamburgueria</td>
+                <td>Brasil</td>
+                <td><a href="https://baraohamburgueria.menudino.com/" target="_blank">Clique aqui</a></td>
+            </tr>
+            
+        </table>
+
+    </section>
+
+    <footer>
+        <style>
+        footer {
+            background-color: #131313;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+        </style>
+        <div id="footer_items">
+            <span id="copyright">
+                <br><img src="src/images/logo_uniube_HORIZONTAL_branca.png" alt="uniube-logo" width="120px"><br>
+                <br><strong>Participantes:</strong>
+                <br> - Pedro Henrique Costa Martins - 5162347
+                <br> - Miguel Garcia Leão - 5160094
+                <br> - Pedro Henrique Garcia - 5160838
+                <br> - Bruno Gauy Ramos - 5161403 <br>
+                <br> <strong><a href="https://github.com/PedroDaBorracharia/TrabalhoJoabe" target="_blank" id="Repositorio">Repositório</a></strong>
+            </span>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

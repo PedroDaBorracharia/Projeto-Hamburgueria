@@ -15,7 +15,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Trabalho Joabe</title>
+    <title>Home</title>
 
 </head>
 <body>
@@ -25,25 +25,28 @@
     <!-- End Google Tag Manager (noscript) -->
     <header>
         <nav id="navbar">
-            <img src="src/images/uniube-logo-4C857E8059-seeklogo.com.png" alt="uniube-logo" width="70px">
+            <img src="src/images/uniube-logo.png" alt="uniube-logo" width="70px">
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                    <a href="index.html">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
+                    <a href="cardapio.html" target="_blank">Cardápio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="fotos.html">Fotos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contato.html" target="_blank">Contato</a>
+                    <a href="termos.html" target="_blank">Termos de Uso</a>
+                </li>
+                <li class="nav-item">
+                    <a href="links.html" target="_blank">Links</a>
                 </li>
             </ul>
 
             <button class="btn-default">
-                Peça aqui
+                <a href="contato.html" id="pecaaqui">Contato</a>
             </button>
 
             <button id="mobile_btn">
@@ -54,41 +57,46 @@
         <div id="mobile_menu">
             <ul id="mobile_nav_list">
                 <li class="nav-item">
-                    <a href="#home">Início</a>
+                    <a href="index.html">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
+                    <a href="cardapio.html" target="_blank">Cardápio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="termos.html" target="_blank">Termos de Uso</a>
+                </li>
+                <li class="nav-item">
+                    <a href="links.html" target="_blank">Links</a>
                 </li>
             </ul>
 
             <button class="btn-default">
-                Peça aqui
+                <a href="contato.html" id="pecaaqui">Contato</a>
             </button>
         </div>
     </header>
 
     <main id="content">
         <section id="home">
-            <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">
-                    Experimente as melhores comidas da
+                    Experimente os melhores hamburgueres da
                     <span>cidade.</span>
                 </h1>
 
                 <p class="description">
-                    Venha experimentar o melhor da culinária em nosso restaurante!
+                    Venha experimentar o melhor da culinária em nossa hamburgueria!
                 </p>
 
                 <div id="cta_buttons">
-                    <a href="#" class="btn-default">
+                    <a href="cardapio.html" class="btn-default">
                         Ver cardápio
                     </a>
 
-                    <a href="tel:+55555555555" id="phone_button">
+                    <a href="https://api.whatsapp.com/send/?phone=5534999724451&text&type=phone_number&app_absent=0" id="phone_button" target="_blank">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
                         </button>
@@ -98,24 +106,50 @@
             </div>
 
             <div id="banner">
-                <img src="src/images/hero.png" alt="">
+                <img src="src/images/tasty-beef-burger-png.webp" alt="">
             </div>
         </section>
 
         <section id="menu">
-            <h2 class="section-title">Comidas</h2>
-            <h3 class="section-subtitle">Pratos que mais saem.</h3>
+            <h2 class="section-title">Hamburguers</h2>
+            <h3 class="section-subtitle">Melhores lanches da casa</h3>
 
             <div id="dishes">
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
+                    
+                    <img src="src/images/dishteste.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        X-Picanha
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        
                     </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
 
                     <img src="src/images/dish.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        X-Quad
                     </h3>
 
                     <span class="dish-description">
@@ -128,58 +162,23 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$38,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
                     </div>
                 </div>
 
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish2.png" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
-
-                    <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
+                <div class="dish">   
 
                     <img src="src/images/dish3.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        X-Padrão
                     </h3>
 
                     <span class="dish-description">
@@ -192,26 +191,22 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$23,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
                     </div>
                 </div>
 
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
+                <div class="dish">   
 
                     <img src="src/images/dish4.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Double Cheedar
                     </h3>
 
                     <span class="dish-description">
@@ -224,11 +219,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$26,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -248,7 +243,7 @@
                     O que os clientes falam sobre nós
                 </h3>
 
-                <div id="feedbacks">
+             <div id="feedbacks">
                     <div class="feedback">
                         <img src="src/images/rapaz.png" class="feedback-avatar" alt="">
 
@@ -264,7 +259,7 @@
                                 </span>
                             </p>
                             <p>
-                                "Recomendo a todos que exprimentem, comida excelente e quentinha!"
+                                "Recomendo a todos que exprimentem, hamburguer muito bem temperado"
                             </p>
                         </div>
                     </div>
@@ -292,14 +287,18 @@
             </div>
         </section>
     </main>
-
+    
+    
     <footer>
         <div id="footer_items">
             <span id="copyright">
+                <br><img src="src/images/logo_uniube_HORIZONTAL_branca.png" alt="uniube-logo" width="120px"><br>
                 <br><strong>Participantes:</strong>
                 <br> - Pedro Henrique Costa Martins - 5162347
                 <br> - Miguel Garcia Leão - 5160094
                 <br> - Pedro Henrique Garcia - 5160838
+                <br> - Bruno Gauy Ramos - 5161403 <br>
+                <br> <strong><a href="https://github.com/PedroDaBorracharia/TrabalhoJoabe" target="_blank" id="Repositorio">Repositório</a></strong>
             </span>
         </div>
     </footer>

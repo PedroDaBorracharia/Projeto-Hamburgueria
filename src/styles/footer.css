@@ -11,12 +11,9 @@ footer {
 
 #copyright {
     color: white;
-    font-weight: 500;
+    font-weight: 200;
 }
 
-@media screen and (max-width: 600px) {
-    #footer_items {
-        flex-direction: column;
-        gap: 20px;
-    }
+#Repositorio {
+    color: white;
 }
