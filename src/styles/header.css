@@ -44,12 +44,13 @@ header {
     display: none;
 }
 
-#pecaaqui{
+#pecaaqui {
     text-decoration: none;
     color: black;
 }
 
 @media screen and (max-width: 1170px) {
+
     #nav_list,
     #navbar .btn-default {
         display: none;
@@ -79,5 +80,5 @@ header {
     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
-    } 
+    }
 }
