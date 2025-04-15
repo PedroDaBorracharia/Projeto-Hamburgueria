@@ -28,5 +28,5 @@ Este projeto tem como objetivo aplicar os conceitos aprendidos em sala de aula, 
 Este projeto foi desenvolvido para fins acadêmicos e não possui uma licença específica.
 
 ## 👨‍💻 Autor
-- **Pedro Henrique** - [GitHub](https://github.com/PedroDaBorracharia)
+- **Pedro Henrique** - [GitHub]((https://github.com/PedroSIUberaba))
 
