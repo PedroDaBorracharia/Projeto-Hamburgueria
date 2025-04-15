@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como parte da disciplina de **Programação para I
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/PedroDaBorracharia/TrabalhoJoabe.git
+   git clone https://github.com/PedroDaBorracharia/Projeto-Hamburgueria.git
    ```
 
 2. Acesse a pasta do projeto:
