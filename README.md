@@ -16,7 +16,7 @@ Este projeto foi desenvolvido como parte da disciplina de **Programação para I
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd TrabalhoJoabe
+   cd Projeto-Hamburgueria
    ```
 
 3. Abra o arquivo `index.html` no navegador de sua preferência.
